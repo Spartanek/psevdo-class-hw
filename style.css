@@ -37,18 +37,19 @@ li {
   background-color: darkviolet;
   border: 5px black dashed;
 }
-.li:first-child {
-  background-color: tomato;
-}
-.li:last-child {
-  background-color: turquoise;
-}
-li:nth-child(even) {
+
+.li:nth-child(even) {
   background-color: greenyellow;
 }
-li:nth-child(odd) {
+.li:nth-child(odd) {
   background-color: chocolate;
 }
-li:nth-child(4n) {
+.li:nth-child(4n) {
   background-color: gold;
+}
+.li:last-child {
+  background-color: aqua;
+}
+.li:first-child {
+  background-color: teal;
 }
